@@ -31,7 +31,7 @@
       "mappedBy": "categories"
     },
     "img": {
-      "type": "string"
+      "type": "text"
     }
   }
 }
