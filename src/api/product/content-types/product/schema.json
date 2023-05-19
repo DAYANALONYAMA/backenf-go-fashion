@@ -50,6 +50,15 @@
     },
     "img2": {
       "type": "text"
+    },
+    "oldPrice": {
+      "type": "decimal"
+    },
+    "order": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::order.order",
+      "inversedBy": "products"
     }
   }
 }

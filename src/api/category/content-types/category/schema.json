@@ -32,6 +32,9 @@
     },
     "img": {
       "type": "text"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }
