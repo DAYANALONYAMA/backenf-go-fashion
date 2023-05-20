@@ -1,4 +1,3 @@
-
 module.exports = ({ env }) => ({
   email: {
     config: {
@@ -30,8 +29,14 @@ module.exports = ({ env }) => ({
         },
       },
       defaultLimit: 99999999,
-
     },
-
+  },
+  meilisearch: {
+    config: {
+      // Your meili host
+      host: "https://ms-678a78f5e34e-3511.sfo.meilisearch.io",
+      // Your master key or private key
+      apiKey: "2abc87e8860f98067bf726c6c8f828e12e328d42",
+    },
   },
 });
